@@ -1,0 +1,194 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2023-08-04T13:44:29.941Z",
+    "redirects": [
+        {
+            "description": "Twitter --> Nitter",
+            "exampleUrl": "https://twitter.com/ElonMusk",
+            "exampleResult": "https://singapore.unofficialbird.net/ElonMusk",
+            "error": null,
+            "includePattern": "(.*)://twitter.com/(.*)",
+            "excludePattern": "",
+            "patternDesc": "Any word after example.com leads to google search for that word.",
+            "redirectUrl": "https://singapore.unofficialbird.net/$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Imgur --> Rimgo",
+            "exampleUrl": "https://imgur.com/a/H8M4rcp",
+            "exampleResult": "http://rg.vern.cc/a/H8M4rcp",
+            "error": null,
+            "includePattern": "^https?://i?.?imgur.com(/.*)?$",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "http://rg.vern.cc$1",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame",
+                "image"
+            ]
+        },
+        {
+            "description": "Medium --> Scribe",
+            "exampleUrl": "https://medium.com/@user/my-post-09a6af907a2",
+            "exampleResult": "https://m.opnxng.com/@user/my-post-09a6af907a2",
+            "error": null,
+            "includePattern": "(.*)://medium.com/(.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://m.opnxng.com/$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Quora --> Quetre",
+            "exampleUrl": "https://www.quora.com/How-do-I-find-my-profile-link-on-Quora",
+            "exampleResult": "https://qr.vern.cc/How-do-I-find-my-profile-link-on-Quora",
+            "error": null,
+            "includePattern": "(.*)://www.quora.com/(.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://qr.vern.cc/$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "IMDb --> LibreMDb",
+            "exampleUrl": "https://www.imdb.com/title/tt7286456/",
+            "exampleResult": "https://libremdb.iket.me/title/tt7286456/",
+            "error": null,
+            "includePattern": "(.*)://www.imdb.com/(.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://libremdb.iket.me/$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Fandom --> AntiFandom",
+            "exampleUrl": "https://minecraft.fandom.com/wiki/Bricks",
+            "exampleResult": "https://antifandom.com/minecraft/wiki/Bricks",
+            "error": null,
+            "includePattern": "https://*.fandom.com/wiki/*",
+            "excludePattern": "https://www.fandom.com/*",
+            "patternDesc": "",
+            "redirectUrl": "https://antifandom.com/$1/wiki/$2",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "StackOverflow --> AnonymousOverflow",
+            "exampleUrl": "https://stackoverflow.com/questions/66186401/how-to-count-numbers",
+            "exampleResult": "https://overflow.lunar.icu/questions/66186401/how-to-count-numbers",
+            "error": null,
+            "includePattern": "(.*)://stackoverflow.com/(.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://overflow.lunar.icu/$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Goodreads --> Biblioreads",
+            "exampleUrl": "https://www.goodreads.com/work/quotes/9151-the-blank-slate-the-modern-denial-of-human-nature",
+            "exampleResult": "https://biblioreads.eu.org/work/quotes/9151-the-blank-slate-the-modern-denial-of-human-nature",
+            "error": null,
+            "includePattern": "(.*)://www.goodreads.com/(.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://biblioreads.eu.org/work/quotes/9151-the-blank-slate-the-modern-denial-of-human-nature",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Bilibili --> Mikuindivious (Space)",
+            "exampleUrl": "https://space.bilibili.com/284120/",
+            "exampleResult": "https://mikuinv.resrv.org/space/284120/",
+            "error": null,
+            "includePattern": "(.*)://space.bilibili.com/(.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://mikuinv.resrv.org/space/$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Bilibili --> Mikuindivious (Video)",
+            "exampleUrl": "https://www.bilibili.com/video/BV1Hx411V7n9/",
+            "exampleResult": "https://mikuinv.resrv.org/video/BV1Hx411V7n9/",
+            "error": null,
+            "includePattern": "(.*)://www.bilibili.com/video/(.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://mikuinv.resrv.org/video/$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "TikTok --> ProxiTok",
+            "exampleUrl": "https://www.tiktok.com/@billieeilishhome?lang=en",
+            "exampleResult": "https://proxitok.pabloferreiro.es/@billieeilishhome?lang=en",
+            "error": null,
+            "includePattern": "(.*)://www.tiktok.com/(.*)",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://proxitok.pabloferreiro.es/$2",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}
